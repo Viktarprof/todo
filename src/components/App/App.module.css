@@ -18,3 +18,11 @@ body{
     justify-items: center;
     align-items: center;
 }
+
+@media(width <= 1088px){
+    .container{
+        width: 390px;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -59,3 +59,22 @@
 .weeks_container:hover .close_btn {
     opacity: 1;
 }
+
+@media(width <= 1088px){
+    .weeks_container{
+        width: 380px;
+        display: flex;
+        justify-content: center
+
+    }
+    .weekDay{
+        width: 80px;
+    }
+    .subjects{
+        width: 280px;
+        display: grid;
+        grid-template-columns: 280px;
+        /* align-items: normal */
+        
+    }
+}
