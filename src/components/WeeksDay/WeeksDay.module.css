@@ -74,7 +74,5 @@
         width: 280px;
         display: grid;
         grid-template-columns: 280px;
-        /* align-items: normal */
-        
     }
 }
